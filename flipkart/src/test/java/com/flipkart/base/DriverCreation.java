@@ -12,7 +12,7 @@ public class DriverCreation {
 	public void createDriver(){
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.flipkar.com/");
 		driver.manage().window().maximize();
 	}
 
