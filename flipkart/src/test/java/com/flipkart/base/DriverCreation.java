@@ -15,11 +15,14 @@ public class DriverCreation {
 	@Test
 	public void createDriver(){
 		//System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		//kashifafetch
+		
 		ChromeDriverManager.chromedriver().setup();
 		//FirefoxDriverManager.firefoxdriver().setup();
 		//driver = new FirefoxDriver();
 		driver = new ChromeDriver();
 		
+		driver.get("https://www.flipkart.com/");
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
 	}
