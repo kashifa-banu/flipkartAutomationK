@@ -21,6 +21,7 @@ public class DriverCreation {
 		//FirefoxDriverManager.firefoxdriver().setup();
 		//driver = new FirefoxDriver();
 		driver = new ChromeDriver();
+		System.out.println("kklkll");
 		
 		driver.get("https://www.flipkart.com/");
 		driver.get("https://www.flipkart.com/");
