@@ -24,6 +24,7 @@ public class DriverCreation {
 		
 		driver.get("https://www.flipkart.com/");
 		driver.get("https://www.flipkart.com/");
+		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
 	}
 
