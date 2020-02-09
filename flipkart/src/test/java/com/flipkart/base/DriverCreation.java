@@ -22,6 +22,7 @@ public class DriverCreation {
 		//driver = new FirefoxDriver();
 		driver = new ChromeDriver();
 		System.out.println("kklkll");
+		System.out.println("kklkll");
 		
 		driver.get("https://www.flipkart.com/");
 		driver.get("https://www.flipkart.com/");
