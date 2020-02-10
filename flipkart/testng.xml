@@ -5,7 +5,7 @@
     <classes>
       <class name="automation.flipkart.AppTest"/>
       <class name="com.flipkart.base.DriverCreation"/>
-      <class name = "com.flipkart.base.ParallelClass"/>
+      
     </classes>
   </test> <!-- Test -->
   
