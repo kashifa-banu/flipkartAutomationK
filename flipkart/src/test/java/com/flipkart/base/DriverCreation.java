@@ -18,11 +18,10 @@ public class DriverCreation {
 		
 		
 		ChromeDriverManager.chromedriver().setup();
-		//FirefoxDriverManager.firefoxdriver().setup();
-		//driver = new FirefoxDriver();
 		driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
+		driver.get("https://www.google.com/");
 	}
 
 }
