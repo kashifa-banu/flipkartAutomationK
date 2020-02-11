@@ -5,6 +5,8 @@
     <classes>
       <class name="automation.flipkart.AppTest"/>
       <class name="com.flipkart.base.DriverCreation"/>
+      <class name="com.flipkart.testcase.LoginTestcase"></class>
+      <class name="com.flipkart.testcase.RegisterTestCase"></class>
       
     </classes>
   </test> <!-- Test -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="instances">
+  <test name="Test(failed)" parallel="instances">
+    <classes>
+      <class name="com.flipkart.testcase.LoginTestcase">
+        <methods>
+          <include name="reportSetup"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.flipkart.testcase.LoginTestcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
